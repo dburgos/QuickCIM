@@ -1,0 +1,32 @@
+#database-content {
+	max-height: 350px;
+	overflow-x: hidden;
+	overflow-y: auto;
+}
+
+#options-content>.btn {
+	margin-top: 20px;
+}
+
+.classname-mark {
+	color: Crimson;
+	font-weight: bold;
+}
+
+.number {
+	color: red;
+	font-size: 1.5em;
+	vertical-align: top;
+	opacity: 0.5;
+	padding-right: 5px;
+}
+
+.offset-topbar {
+	padding-top: 50px;
+}
+
+.logo {
+	font-family: 'Iceland', Serif;
+	color: #fff !important;
+	font-size: 3em;
+}
