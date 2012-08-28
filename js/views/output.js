@@ -27,6 +27,7 @@ window.outputView = Backbone.View.extend({
 			// XHR for download as ZIP
 	 		$.ajax({
 	 			type: 	'POST',
+<<<<<<< HEAD
 	 			url: 	"index.php/quickcim/generate",
 	 			data: 	{	tables: JSON.stringify(jsonTables) },
 	 			dataType: "json",
@@ -47,3 +48,25 @@ window.outputView = Backbone.View.extend({
 		}
 	 }
 });
+=======
+	 			url: 	"quickcim/generate",
+	 			data: 	{	tables: JSON.stringify(jsonTables) },
+	 			dataType: "json",
+	 			error: function(data) 
+	 				{
+	 					// Some goes wrong
+						utils.toogleFade("#connection-error", 5000);
+				  	},
+				  success: function(data) 
+				  	{
+				  		// Get the file
+				  		window.location = "quickcim/download/"+data.filename;
+				   }
+			});
+		} else {
+			// If anyone table is not checked, may know
+			utils.toogleFade("#select-table", 5000);
+		}
+	 }
+});
+>>>>>>> branch 'master' of https://github.com/dburgos/QuickCIM.git

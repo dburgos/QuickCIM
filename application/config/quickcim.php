@@ -1,6 +1,10 @@
 <?php  if ( ! defined('BASEPATH')) exit('No direct script access allowed');
 
+<<<<<<< HEAD
 $config['quickcim_version']				= 'v2.1';
+=======
+$config['quickcim_version']				= 'v2.0';
+>>>>>>> branch 'master' of https://github.com/dburgos/QuickCIM.git
 $config['quickcim_mymodel_path']		= 'application/core/MY_Model.php';
 $config['quickcim_templates_path']		= 'application/libraries/quickcim/templates/';
 $config['quickcim_zip_path']			= 'zip/';

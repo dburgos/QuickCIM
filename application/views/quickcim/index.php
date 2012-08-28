@@ -10,6 +10,7 @@
 <body>
 	<?php 
 	$this->load->view('quickcim/header');?>
+<<<<<<< HEAD
 	<section class="container">
 		<div class="row">
 			<?php 
@@ -35,3 +36,30 @@
 	<script src="js/main.js"></script>
 </body>
 </html>
+=======
+	<div class="container">
+		<div class="row">
+			<?php 
+			$this->load->view('quickcim/connection');
+			$this->load->view('quickcim/tables');
+			$this->load->view('quickcim/output');
+			?>
+		</div>
+	</div>
+	<script>
+		// Required by Bootstrap JS Tooltip for multilanguage  
+		var classname_title_txt = "<?=$this->lang->line('quickcim_tables_classname_title')?>";
+		var classname_content_txt = "<?=$this->lang->line('quickcim_tables_classname_content')?>";
+	</script>
+	<script src="lib/jquery-1.7.2.min.js"></script>
+	<script src="lib/underscore-min.js"></script>
+	<script src="lib/backbone-min.js"></script>
+	<script src="lib/bootstrap.min.js"></script>
+	<script src="js/utils.js"></script>
+	<script src="js/views/connection.js"></script>
+	<script src="js/views/tableControls.js"></script>
+	<script src="js/views/output.js"></script>
+	<script src="js/main.js"></script>
+</body>
+</html>
+>>>>>>> branch 'master' of https://github.com/dburgos/QuickCIM.git

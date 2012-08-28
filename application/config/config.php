@@ -26,7 +26,11 @@ $config['base_url']	= 'http://localhost/quickcim/';
 | variable so that it is blank.
 |
 */
+<<<<<<< HEAD
 $config['index_page'] = 'index.php';
+=======
+$config['index_page'] = '';
+>>>>>>> branch 'master' of https://github.com/dburgos/QuickCIM.git
 
 /*
 |--------------------------------------------------------------------------
