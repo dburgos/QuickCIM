@@ -111,7 +111,6 @@ class Quickcim extends CI_Controller {
 		// Load QuickCIM configuration
 		$this->config->load('quickcim');
 		// Obtain the root
-<<<<<<< HEAD
 		$zip_path = $this->config->item('base_url') . $this->config->item('quickcim_zip_path');
 		// Get the file
 		redirect($zip_path . $filename);
@@ -120,13 +119,3 @@ class Quickcim extends CI_Controller {
 
 /* End of file quickcim.php */
 /* Location: ./application/controllers/quickcim.php */
-=======
-		$zip_path = $this->config->item('quickcim_zip_path');
-		// Get the file
-		redirect($zip_path . $filename);
-	}
-}
-
-/* End of file quickcim.php */
-/* Location: ./application/controllers/quickcim.php */
->>>>>>> branch 'master' of https://github.com/dburgos/QuickCIM.git
