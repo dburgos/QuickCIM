@@ -5,12 +5,11 @@ QuickCIM generates the [CodeIgniter](https://ellislab.com/codeigniter) Models fr
 Generated models extends of [MY_Model](https://github.com/ccschmitz/codeIgniter-base-model) by [Chris Schmitz](http://chris-schmitz.com/) in v2.x
 
 ## Get started
-Clone the repository and open index.php (Apache and PHP required)
+Clone the repository
 ```bash
-# Fork or clone the repository
 git clone https://github.com/dburgos/QuickCIM.git
 ```
-Then open index.php (Apache and PHP required)
+Open index.php (Apache and PHP required)
 
 ## Features
 ![QuickCIM](http://davidburgosonline.com/wp-content/uploads/2012/07/quickcim2_screenshot_classname_tooltip.jpg)
