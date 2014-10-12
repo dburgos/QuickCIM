@@ -1,24 +1,26 @@
 # QuickCIM
-QuickCIM generates the CodeIgniter Models from any relational database.
+![QuickCIM](http://davidburgosonline.com/wp-content/uploads/2012/07/quickcim2_screenshot_general.jpg)
+QuickCIM generates the [CodeIgniter](https://ellislab.com/codeigniter) Models from any relational database. Also available on [SourceForge](http://sourceforge.net/projects/quickcim/).
 
 Generated models extends of [MY_Model](https://github.com/ccschmitz/codeIgniter-base-model) by [Chris Schmitz](http://chris-schmitz.com/) in v2.x
 
 ## Get started
-Clone the repository and open index.php (Apacahe and PHP required)
+Clone the repository and open index.php (Apache and PHP required)
 ```bash
 # Fork or clone the repository
 git clone https://github.com/dburgos/QuickCIM.git
 ```
-Also available on [SourceForge](http://sourceforge.net/projects/quickcim/)
+Then open index.php (Apache and PHP required)
 
 ## Features
+![QuickCIM](http://davidburgosonline.com/wp-content/uploads/2012/07/quickcim2_screenshot_classname_tooltip.jpg)
 * Supports Oracle, MySQL, MariaDB, SQLite and PostgreSQL databases
 * Freaking fast: select all your tables in one click, add '_model' suffix in one click and download in another one!
 * Classname editable
 * Instant download as .zip.
 * Multilanguage: available in english and spanish
 * Efficient and clear. Using CodeIgniter and Backbone.js
-* License: Creative Commons 3.0, allows commercial purposes.
+* License: MIT, allows commercial purposes.
 
 ## Changelog
 ### v2.1 - 27/08/2012
